@@ -1,0 +1,67 @@
+// styles.scss
+
+@import "./Sass/Utilities/variables";
+@import "./Sass/Utilities/themes";
+@import "./Sass/Components/accordion";
+@import "./Sass/Components/accrediation";
+@import "./Sass/Components/buttons";
+@import "./Sass/Components/card";
+@import "./Sass/Components/footer";
+@import "./Sass/Components/nav";
+@import "./Sass/Utilities/assets";
+@import "./Sass/Utilities/global";
+
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.intro-section {
+  background: linear-gradient(rgba(0, 36, 78, 0.8) 50%, rgba(0, 36, 78, 0.8) 50%), url(https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/12801768-e416-4e88-b895-ed159e4c34ea.jpg);
+  height: 345px;
+  background-size: cover;
+  background-position: center;
+}
+
+.equipment-section {
+  background-color: #AFE3FA;
+}
+
+.fw700{
+  font-weight: 700;
+}
+
+.btn-default {
+background-color: #fff;
+border-color: $ink-blue;
+color: $ink-blue;
+}
+
+.btn-default:hover {
+  background-color: $ink-blue;
+  border-color: $ink-blue;
+  color: #fff;
+  }
+  
+
+  .s14 {
+    font-size: 14px;
+  }
+  
+
+  .s30 {
+    font-size: 30px;
+  }
+  
+  .nested-accordion:nth-child(odd) .accordion-button,
+  .nested-accordion:nth-child(odd) .accordion-body {
+      background-color: #EFEFEF ; /* Light gray color */
+  }
+  
+  .nested-accordion .accordion-button {
+    color: #666666;
+    font-weight: bolder;
+  }
+  
+ 
+  
