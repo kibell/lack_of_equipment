@@ -24,6 +24,266 @@
 
   <style>
 
+.ink-blue {
+  color: #00244e;
+}
+
+.heritage {
+  color: #0a3370;
+}
+
+.bg-lightgray {
+  background: #F9F9F9;
+}
+
+.accordion-header {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #0a3370;
+}
+
+.accordion-button.collapsed::after {
+  font-family: "FontAwesome";
+  content: "\f067";
+  font-size: 1rem;
+  color: #0a3370;
+  float: right;
+  background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  font-family: "FontAwesome";
+  content: "\f068";
+  color: #0a3370;
+  float: right;
+  font-size: 1.25rem;
+  background-image: none;
+  transform: none;
+}
+
+.btn {
+  padding: 0.6rem 0.9rem;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #fdb913;
+  border-color: #fdb913;
+  color: #0a3370;
+}
+.btn-primary:hover {
+  background-color: #fee097;
+  border-color: #fee097;
+  color: #0a3370;
+}
+
+.btn-secondary {
+  background-color: #0a3370;
+  border-color: #0a3370;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #0a3370;
+}
+
+.chat-btn {
+  position: fixed;
+  transform: rotate(-90deg);
+  right: -22px;
+  top: 70vh;
+  z-index: 1;
+  font-weight: 600;
+  font-size: var(--font-size-md);
+}
+
+@media only screen and (max-width: 576px) {
+  .mobile-btn-w {
+    width: 100%;
+    margin-bottom: 0.275rem;
+  }
+}
+.card-header {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0a3370;
+  font-family: "Open Sans", sans-serif;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.card-info-header {
+  color: #0a3370;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.card-paragraph {
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.min-h-18 {
+  min-height: 18rem;
+}
+
+.snhu-logo-footer {
+  height: auto;
+  width: 100%;
+}
+
+footer {
+  background-color: #00244E !important;
+  color: #FFFFFF;
+}
+
+footer p, footer a {
+  color: #FFFFFF;
+}
+
+footer a {
+  font-size: 1rem;
+}
+
+footer.mobile {
+  display: none;
+}
+
+.navbar {
+  background-color: #00244e;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar > .container {
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+}
+h1 {
+  color: #0a3370;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  color: #00244e;
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+  color: #00244e;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+
+p,
+li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1E1E1E;
+  line-height: 1.5;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+a.head-link {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.head-link:hover,
+a.head-link:focus {
+  -webkit-text-decoration: underline #70abdb 2px;
+          text-decoration: underline #70abdb 2px;
+  text-underline-offset: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+a {
+  color: #0a3370;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  section {
+    margin: 2.5rem 0 2.5rem 0;
+  }
+}
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.intro-section {
+  background: linear-gradient(rgba(0, 36, 78, 0.8) 50%, rgba(0, 36, 78, 0.8) 50%), url(https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/12801768-e416-4e88-b895-ed159e4c34ea.jpg);
+  height: 345px;
+  background-size: cover;
+  background-position: center;
+}
+
+.equipment-section {
+  background-color: #AFE3FA;
+}
+
+.fw700 {
+  font-weight: 700;
+}
+
+.btn-default {
+  background-color: #fff;
+  border-color: #00244e;
+  color: #00244e;
+}
+
+.btn-default:hover {
+  background-color: #00244e;
+  border-color: #00244e;
+  color: #fff;
+}
+
+.s14 {
+  font-size: 14px;
+}
+
+.s30 {
+  font-size: 30px;
+}
+
+.nested-accordion:nth-child(odd) .accordion-button,
+.nested-accordion:nth-child(odd) .accordion-body {
+  background-color: #EFEFEF; /* Light gray color */
+}
+
+.nested-accordion .accordion-button {
+  color: #666666;
+  font-weight: bolder;
+}/*# sourceMappingURL=style.css.map */
   </style>
   <!--[if lt IE 9]>
         <script src="https://www.snhu.edu/assets/SNHU/js/polyfill/respond.min.js"></script>
@@ -179,15 +439,16 @@ f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+
   <section>
     <div class="container">
       <div class="row d-flex  mt-5">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <p>
             A big advantage to being an SNHU online student is that there are no set class times, so you’re free to study around your weekly schedule — and work wherever you have access to a computer and the internet. 
             <br> <br>
             You’ll need to make sure you have access to a computer and the internet before the start of your first term. Specifically, here is what you’ll need to have for most degree programs:
           </p>
         </div>
-        <div class="col-md-6">
-          <img class="w-75" src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/7ad47954-2e93-433c-a0ac-89b303fe66b3.png" alt="Career Success ">
+        <div class="col-md-1"></div>
+        <div class=" col-md-5">
+          <img class="w-100" src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/7ad47954-2e93-433c-a0ac-89b303fe66b3.png" alt="Career Success ">
         </div>
       </div>
     </div>
@@ -196,8 +457,8 @@ f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+
 
   <section class="equipment-section mt-5 p-5">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 d-flex align-items-center text-center flex-column">
+      <div class="row py-5">
+        <div class="col-md-4 d-flex align-items-center text-center flex-column py-5">
           <img class="mb-3" src="https://image.dream.snhu.edu/lib/fe9213737460007973/m/1/443ec124-b433-4296-a868-ed83582d23d6.png" alt="laptop Icon">
           <h3>Laptop or Desktop</h3>
           <p class="ink-blue">Windows or Apple Operating system. 8GB RAM and 100GB storage</p>
